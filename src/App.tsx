@@ -1,7 +1,32 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { google } from 'googleapis';
+
+const serviceAccountKeyFile = './buraco-note-8c6c45f0b31d.json';
+const sheetId = '11F_IdN_wc-GGCsj2u3DdrgEx6575jzcAJAxBx9oJDVE';
+const tabName = 'test';
+const range = 'A:E';
+
+async function _getGoogleSheetClient() {
+  const auth = new google.auth.GoogleAuth({
+    keyFile: serviceAccountKeyFile,
+    scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+  });
+  const authClient = await auth.getClient();
+  return google.sheets({
+    version: 'v4',
+    auth: authClient,
+  });
+}
+
+async function _readGoogleSheet(googleSheetClient, sheetId, tabName, range) {
+  const res = await googleSheetClient.spreadsheets.values.get({
+    spreadsheetId: sheetId,
+    range: `${tabName}!${range}`,
+  });
+
+  return res.data.values;
+}
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,25 +34,7 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }

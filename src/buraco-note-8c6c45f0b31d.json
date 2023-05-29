@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "buraco-note",
+  "private_key_id": "8c6c45f0b31d57ca9e6858d562d6797fb9319c1a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCyRT7N8tffO//c\nG3o5QLyfeeHaUAcAP+3lJubDkpe8O4Vk6Y0ifBDkNhxK1T7UcYBKtIo2m1XT0dsy\nMBV32uwzw5YuRsAwBzUp2cizNcLQJtHL1ebkKkhKtr58QHopP1F2XdWHud9vufPP\nlqChrWBndKV8fEozPQ3f7dHBupGxSAXQaSwaT2GtsgmhI8Rm53PCrqGELaonWOlm\n221iS1WlzEgAYb0bLQua7BcE3FpgaCS+p+FXlF3wKI6gjcvlzGqowD9pYUWMuvnu\nsfADmSX3bEccO5n5ro+CzdcQQJJSe9OwdfYJUQ3d9MISADsGNMku3MjrtkGakHjN\nmJUXJ65dAgMBAAECggEAGP+IzQxupQke2diojPq8+If42co7ERfl3ipUVbxqtqSK\nEhqGBf3ryHSmBwBcLSI1YURr1Th3Eprs597CQ+pZEPEuUBLvxExech3t/ONfDB1F\nchXuqLQdKwzxLS9Fch9E5xpFZSD1ag9jVwrCP6m2SQucYRZ0uTaoiWwp68ajw34f\ntZMZ9OqllYEOLMeVP061D6UlnJFLdv2t4FXxE8yXTpsVk4jpdrT253+XEVltOKIZ\nAj6TQdclJmvZlZg4IhwXHzx610awDTUrVpB4Y2+PnwPBGMhrAayqUIEpyj49sV2x\nX3ObPyQIO9KV1yOhMt8ZQJ/9bhiC8QTPrXqzCDsgwQKBgQDvVqO7XFKGiGdLXsgY\nskhmxZKcMmKYuuWr4CUc2xJEHxBaxF4A+KenhHDpYKSuZwI685Dyy0esYNRrAAqT\nOQvga9RGI4vdSud71mNcUDiQO/Me9TkKMoYfGLQLmYYEzj0ZNjTUr2evL3ls9tqo\n6UiQDgS5+BfzU6ZrIrXhpJE91QKBgQC+rkkoibZdkKHxS/KKQMu42kiAEAbnEvGS\nmWGJQEEPbnz3W14Edek9L/vb4n2TSrOyvVcSMU86kc7RhZvan1/0nMI+I/kxjNZR\nloBpzq2M6eY9QKbAvzM/aQ6IWLLdwP0wjoGuj+rV93FQREcLcPwnTtP9ZlUgRXj+\nK9mbBP8KaQKBgDh5URkcp7xm4zi9nKl3J+5YIEgK+4jeUONFeHxelOjOC6XfP+8q\nvSSh86Kd0z3zwGr4nfMsVDUwg+7bi6NBirPhvazvJkmJKyXlaHyX0UD3ZF6hrlvh\noBQmWBWEnEL2BySzzbOB0A1ePmCfvuisYxras/LNv5kC2/nbrt8XXc4hAoGAfaW4\n3XaJbfQtUiRaiRGTbJah6YkmE0QfXRum8tsdQ/7pZ9GUDVppPAGPc+A2IUW7Tc+I\nPZuyeoS0BMqG3bPhdf2J3Yq03RrR6udCbPZc1BsYtUoR17bmHSWsBtpz2r4d2M4+\n0/lPpHit+VdUfUyRS5GdDUBOXbqJtOrONGFBcekCgYEAvNbHrfrKu6nRGUbmVrSE\noMgdBSpdFmadMUWiSRQQAM0Kds1yGGb8hZz1Pt6Q0tBLibaisfHMpgOJ8zFOl3IC\nJ29j8TQiVYRwra/12DIXJFpMpUOjzejUHkpKjjs1ySyES/WGmCCMkGZwZEDA9uCv\nUQP0QpdPx/iBd6cbEy7xAMQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "buraco-note-test@buraco-note.iam.gserviceaccount.com",
+  "client_id": "108476453485470731675",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/buraco-note-test%40buraco-note.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
